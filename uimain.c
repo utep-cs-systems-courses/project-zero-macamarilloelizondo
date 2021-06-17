@@ -31,7 +31,7 @@ int main()
       break;
     case 'a':
       puts("You selected arrow:");
-      print_arrow(5, 10);
+      print_arrow(5, 11);
       break;
     case 'd':
       puts("You selected another font:");

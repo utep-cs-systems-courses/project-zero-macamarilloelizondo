@@ -30,7 +30,6 @@ void print_triangle(int leftCol, int size)
 void print_arrow(int leftCol, int size)
 {
   print_triangle(leftCol, size);
-  int start = size/2;
-  int st = size - start;
-  print_square(st + leftCol, size);
+  int start = (size - (size/2) + leftCol); //Exact point in where to put the square
+  print_square(start, size);
 }
